@@ -27,3 +27,12 @@ Solo, local-zero, build-in-public. I'd rather ship a narrow tool that's
 actually deterministic than a broad one that quietly guesses.
 
 🛠 Python · ⚡ FastAPI · 🤖 LLM / agent security 📌 X @OHS1327
+
+
+⚠️ Responsible Disclosure & Safety Notice
+
+This work follows responsible disclosure principles. The goal is defense, not offense — knowing what leaks before you ship an AI agent, so you can prevent it.
+
+- To prevent misuse, the exact bypass-prompt strings used in testing are masked/generalized.
+- All tests run only against intentionally-vulnerable, self-controlled demo targets — never against external services or anyone else's systems.
+- What's shared is which defenses work, not a runnable recipe for how to attack.
