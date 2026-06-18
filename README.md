@@ -15,10 +15,15 @@ before I monetize — evidence over guesses.
   crash your endpoints (500s, schema mismatches) and hands you a copy-paste fix
   prompt per pattern. No API key required.
 
+* [agentproof-scan](https://github.com/ghkfuddl1327-wq/agentproof) — a pre-deployment
+security scanner for self-hosted AI agents *(demo targets today; bring-your-own in progress)*.
+Fires prompt-injection probes and checks if the agent leaks its system prompt or API keys — two-stage detection
+(leak vs prompt-disclosure) plus a paste-ready fix via `--handoff`. Built on what I learned from rojaprove.
+Find it, prove it, fix it.
+
 **How I work**
 
 Solo, local-zero, build-in-public. I'd rather ship a narrow tool that's
 actually deterministic than a broad one that quietly guesses.
 
-🛠 Python · ⚡ FastAPI · 🤖 LLM / app security
-📌 X [@OHS1327](https://x.com/OHS1327)
+🛠 Python · ⚡ FastAPI · 🤖 LLM / agent security 📌 X @OHS1327
