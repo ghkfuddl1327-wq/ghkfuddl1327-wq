@@ -5,15 +5,15 @@ before I monetize — evidence over guesses.
 
 **Currently building**
 
-- **[rojaprove](https://github.com/ghkfuddl1327-wq/rojaprove)** — a pre-launch
-  red-team CLI for LLM apps. Plant a canary, send leak probes, get a
-  deterministic red/green verdict with evidence and a paste-ready fix.
-  v0.1 detects system-prompt leakage (OWASP LLM07). *Find it, prove it, fix it.*
-
 - **[preship](https://github.com/ghkfuddl1327-wq/preship)** — a pre-launch
   fuzzer for FastAPI apps. Point it at a staging URL; it finds the inputs that
   crash your endpoints (500s, schema mismatches) and hands you a copy-paste fix
   prompt per pattern. No API key required.
+
+- **[rojaprove](https://github.com/ghkfuddl1327-wq/rojaprove)** — a pre-launch
+  red-team CLI for LLM apps. Plant a canary, send leak probes, get a
+  deterministic red/green verdict with evidence and a paste-ready fix.
+  v0.1 detects system-prompt leakage (OWASP LLM07). *Find it, prove it, fix it.*
 
 * [agentproof-scan](https://github.com/ghkfuddl1327-wq/agentproof) — a pre-deployment
 security scanner for self-hosted AI agents *(demo targets today; bring-your-own in progress)*.
