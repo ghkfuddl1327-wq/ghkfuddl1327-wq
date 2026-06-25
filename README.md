@@ -5,10 +5,9 @@ before I monetize — evidence over guesses.
 
 **Currently building**
 
-- **[preship](https://github.com/ghkfuddl1327-wq/preship)** — a pre-launch
-  fuzzer for FastAPI apps. Point it at a staging URL; it finds the inputs that
-  crash your endpoints (500s, schema mismatches) and hands you a copy-paste fix
-  prompt per pattern. No API key required.
+- **[preship](https://github.com/ghkfuddl1327-wq/preship)**preship** — a pre-launch reliability check for FastAPI apps.
+- Point it at a staging URL; it finds what breaks the contract (500 crashes, undocumented status codes, schema mismatches)
+- and hands you a copy-paste fix prompt per pattern. Not a security scanner — it does one job and is honest about the edges. No API key required.
 
 - **[rojaprove](https://github.com/ghkfuddl1327-wq/rojaprove)** — a pre-launch
   red-team CLI for LLM apps. Plant a canary, send leak probes, get a
