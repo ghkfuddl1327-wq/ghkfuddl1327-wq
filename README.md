@@ -14,7 +14,12 @@ before I monetize — evidence over guesses.
   deterministic red/green verdict with evidence and a paste-ready fix.
   v0.1 detects system-prompt leakage (OWASP LLM07). *Find it, prove it, fix it.*
 
-* [agentproof-scan](https://github.com/ghkfuddl1327-wq/agentproof) —  a pre-deployment security scanner for self-hosted AI agents (demo targets today; bring-your-own in progress). Fires prompt-injection probes and checks if the agent leaks its system prompt or API keys — two-stage detection (leak vs prompt-disclosure) plus a paste-ready fix via --handoff. Grew out of my earlier red-team work. Find it, prove it, fix it.
+**[agentproof-scan] — a pre-deployment security scanner for self-hosted AI agents. Fires
+prompt-injection probes and checks whether the agent leaks its system prompt or API
+keys — including in its reasoning trace, where a leak hides even when the answer looks
+clean. Two-stage detection (leak vs prompt-disclosure), scan your own HTTP agent or
+gate CI, plus a paste-ready fix via --handoff. Grew out of my earlier red-team work.
+pip install agentproof-scan · Find it, prove it, fix it.
 
 **How I work**
 
